@@ -1,0 +1,38 @@
+
+@font-face {
+  font-family: Sriracha; /* Thai */
+  src: url(../front/Sriracha-Regular.ttf);
+}
+
+@font-face {
+  font-family: HinaMincho; /* English */
+  src: url(../front/HinaMincho-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ed64a6;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header .logo {
+  width: 150px;
+}
+.header .nav {
+  color: white;
+  font-family: HinaMincho;
+  font-size: 20px;
+}
+
+.article{
+  font-family: Sriracha;
+  font-size: 18;
+  margin-top: 2rem;
+}
+
